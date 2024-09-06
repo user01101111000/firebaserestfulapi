@@ -1,9 +1,11 @@
 <p align="center">
   <img src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-standard.svg" />
 </p>
+<p align="center">
+  <img src="https://cdn2.hubspot.net/hubfs/439485/Official_Logos/RESTful-API-logo-for-light-bg.png#keepProtocol" width="50%" />
+</p>
 
 
-</br>
 </br>
 
 ## DATABASE 🛢️ (Realtime)
