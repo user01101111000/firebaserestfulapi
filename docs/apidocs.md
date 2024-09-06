@@ -2,7 +2,7 @@
 <h1>📄 FIREBASE RESTFUL API DOCS 📄</h1>
 </div>
 
-## DATABASE (Realtime) 🛢️
+## DATABASE 🛢️ (Realtime)
 
 </br>
 
@@ -36,71 +36,9 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 ```
 
-</br>
-
-## AUTH 🔐
-
-**_Register : (method : POST) :_**
-
-```js
-https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
-```
-
 <br/>
 
-**Body**
-
-```js
-{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "displayName" : "xxxx", "returnSecureToken" : true}
-```
-
-</br>
- 
- ***Login : (method : POST) :***
-
-```js
-https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
-```
-
-</br>
-
-**Body**
-
-```js
-{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "returnSecureToken" : true}
-```
-
-</br>
-
-## STORAGE 💾
-
-<br/>
-
-**_Upload image (method : POST) :_**
-
-```js
-https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
-```
-
-<br/>
-
-**Body**
-
-```js
-{file: {}}
-```
-
-<br/>
-
-**_Image url :_**
-
-```js
-https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
-```
-
-<br/>
-
-## DATABASE (Firestore) 🛢️
+## DATABASE 🛢️ (Firestore)
 
 <br/>
 
@@ -199,4 +137,68 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
+```
+
+</br>
+
+## AUTH 🔐
+
+<br/>
+
+**_Register : (method : POST) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
+```
+
+<br/>
+
+**Body**
+
+```js
+{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "displayName" : "xxxx", "returnSecureToken" : true}
+```
+
+</br>
+ 
+ ***Login : (method : POST) :***
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "returnSecureToken" : true}
+```
+
+</br>
+
+## STORAGE 💾
+
+<br/>
+
+**_Upload image (method : POST) :_**
+
+```js
+https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
+```
+
+<br/>
+
+**Body**
+
+```js
+{file: {}}
+```
+
+<br/>
+
+**_Image url :_**
+
+```js
+https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
 ```
