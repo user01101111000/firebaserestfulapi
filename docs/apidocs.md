@@ -2,12 +2,11 @@
 <h1>📄 FIREBASE RESTFUL API DOCS 📄</h1>
 </div>
 
-
 ## DATABASE (Realtime) 🛢️
 
 </br>
 
- ***Get list data (method : GET) :***
+**_Get list data (method : GET) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -15,7 +14,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-***Delete list data (method : DELETE) :***
+**_Delete list data (method : DELETE) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -23,7 +22,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
- ***Post one data (method : POST) :***
+**_Post one data (method : POST) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -31,7 +30,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-***Get, Update, Delete one data (methods : GET, PUT, DELETE) :***
+**_Get, Update, Delete one data (methods : GET, PUT, DELETE) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
@@ -39,13 +38,9 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-## DATABASE (Firestore) 🛢️
-
-<br/>
-
 ## AUTH 🔐
 
-***Register : (method : POST) :***
+**_Register : (method : POST) :_**
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
@@ -81,7 +76,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_K
 
 <br/>
 
-***Upload image (method : POST) :***
+**_Upload image (method : POST) :_**
 
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
@@ -97,8 +92,111 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 
 <br/>
 
-***Image url :***
+**_Image url :_**
 
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
+```
+
+<br/>
+
+## DATABASE (Firestore) 🛢️
+
+<br/>
+
+**_Get all documents (method : GET) :_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}
+```
+
+</br>
+
+**_Get document (method : GET) :_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
+```
+
+</br>
+
+**_Post document (method : POST, random id) :_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}
+```
+
+</br>
+
+**Body**
+
+```js
+{
+  "fields": {
+    "email": {
+      "stringValue": "test@example.com"
+    },
+    "password": {
+      "stringValue": "test123"
+    }
+  }
+}
+```
+
+<br/>
+
+**_Post document (method : POST (PATCH), create a document with the name you want)_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
+```
+
+</br>
+
+**Body**
+
+```js
+{
+  "fields": {
+    "email": {
+      "stringValue": "test@example.com"
+    },
+    "password": {
+      "stringValue": "test123"
+    }
+  }
+}
+```
+
+</br>
+
+**_Update document (method : PUT (PATCH)) :_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
+```
+
+</br>
+
+**Body**
+
+```js
+{
+  "fields": {
+    "email": {
+      "stringValue": "test@example.com"
+    },
+    "password": {
+      "stringValue": "test123"
+    }
+  }
+}
+```
+
+</br>
+
+**_Delete document (method : DELETE) :_**
+
+```js
+https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
 ```
