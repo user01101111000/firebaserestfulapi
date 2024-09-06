@@ -2,8 +2,6 @@
   <img src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-standard.svg" />
 </p>
 
-<h1 align="center">📄 FIREBASE RESTFUL API DOCS 📄</h1>
-
 ## DATABASE 🛢️ (Realtime)
 
 </br>
