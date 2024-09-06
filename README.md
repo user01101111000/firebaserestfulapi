@@ -151,7 +151,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 <br/>
 
-**_Register : (method : POST) :_**
+**_Register (method : POST) :_**
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
@@ -167,7 +167,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
 
 </br>
  
- ***Login : (method : POST) :***
+ ***Login (method : POST) :***
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
