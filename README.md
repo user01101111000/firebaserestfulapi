@@ -2,6 +2,11 @@
   <img src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-standard.svg" />
 </p>
 
+
+</br>
+</br>
+</br>
+
 ## DATABASE 🛢️ (Realtime)
 
 </br>
@@ -202,7 +207,3 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
 ```
-
----
-
-<h3>by had3c.</h3>
