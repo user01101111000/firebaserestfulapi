@@ -1,5 +1,5 @@
 <div align="center">
-<h1>📄 Foody API DOCS 📄</h1>
+<h1>📄 FIREBASE RESTFUL API DOCS 📄</h1>
 </div>
 
 
