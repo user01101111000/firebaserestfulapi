@@ -7,7 +7,7 @@
 
 </br>
 
-## DATABASE 🛢️ (Realtime)
+## REALTIME DATABASE 🗄️
 
 </br>
 
@@ -71,7 +71,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-## DATABASE 🛢️ (Firestore)
+## FIRESTORE DATABASE 🗄️
 
 <br/>
 
@@ -174,7 +174,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-## AUTH 🔐
+## AUTHENTICATION 🔐
 
 <br/>
 
@@ -210,7 +210,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_K
 
 </br>
 
-## STORAGE 💾
+## STORAGE 📦
 
 <br/>
 
