@@ -5,14 +5,13 @@
   <img src="https://cdn2.hubspot.net/hubfs/439485/Official_Logos/RESTful-API-logo-for-light-bg.png#keepProtocol" width="50%" />
 </p>
 
-
 </br>
 
 ## DATABASE 🛢️ (Realtime)
 
 </br>
 
-**_Get list data (method : GET) :_**
+**_🚀 Get list data (method : GET) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -20,7 +19,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**_Delete list data (method : DELETE) :_**
+**_🚀 Delete list data (method : DELETE) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -28,7 +27,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**_Post one data (method : POST) :_**
+**_🚀 Post data (method : POST) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -36,19 +35,47 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**_Get, Update, Delete one data (methods : GET, PUT, DELETE) :_**
+**Body**
+
+```js
+{
+    "email": "test@gmail.com",
+    "password": "test123"
+    .
+    .
+    .
+}
+```
+
+</br>
+
+**_🚀 Get, Update, Delete data (methods : GET, PUT, DELETE) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 ```
 
-<br/>
+</br>
+
+**Body (only PUT method)**
+
+```js
+{
+    "email": "test@gmail.com",
+    "password": "test123"
+    .
+    .
+    .
+}
+```
+
+</br>
 
 ## DATABASE 🛢️ (Firestore)
 
 <br/>
 
-**_Get all documents (method : GET) :_**
+**_🚀 Get all documents (method : GET) :_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}
@@ -56,7 +83,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**_Get document (method : GET) :_**
+**_🚀 Get document (method : GET) :_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
@@ -64,7 +91,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**_Post document (method : POST, random id) :_**
+**_🚀 Post document (method : POST, random id) :_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}
@@ -89,7 +116,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 <br/>
 
-**_Post document (method : POST (PATCH), create a document with the name you want)_**
+**_🚀 Post document (method : POST (PATCH), create a document with the name you want)_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
@@ -114,7 +141,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**_Update document (method : PUT (PATCH)) :_**
+**_🚀 Update document (method : PUT (PATCH)) :_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
@@ -139,7 +166,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**_Delete document (method : DELETE) :_**
+**_🚀 Delete document (method : DELETE) :_**
 
 ```js
 https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(default)/documents/{YOUR_COLLECTION}/{DOCUMENT_ID}
@@ -151,7 +178,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 <br/>
 
-**_Register (method : POST) :_**
+**_🚀 Register (method : POST) :_**
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
@@ -167,7 +194,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
 
 </br>
  
- ***Login (method : POST) :***
+ ***🚀 Login (method : POST) :***
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]
@@ -187,7 +214,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_K
 
 <br/>
 
-**_Upload image (method : POST) :_**
+**_🚀 Upload image (method : POST) :_**
 
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
@@ -203,7 +230,7 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 
 <br/>
 
-**_Image url :_**
+**_🚀 Image url :_**
 
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
