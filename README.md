@@ -225,7 +225,15 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 **Body**
 
 ```js
-{file: {}}
+file  // Image File
+```
+
+<br/>
+
+**Headers**
+
+```js
+{ headers: { "Content-Type": file.type } }
 ```
 
 <br/>
