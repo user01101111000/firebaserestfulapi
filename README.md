@@ -268,6 +268,46 @@ https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
 
 </br>
 
+**_🚀 Update account (method : POST) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{
+    "idToken": "xxxxx",
+    "displayName": "xxxxx",
+    "photoUrl" : "xxxxx",
+    // "deleteAttribute": ["DISPLAY_NAME", "PHOTO_URL"],  // List attributes to delete
+    "returnSecureToken": true
+}
+```
+
+</br>
+
+**_🚀 Delete user (method : DELETE) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:delete?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{
+    "idToken": "xxxxx",
+}
+```
+
+</br>
+
 **_🚀 Get user info (method : POST) :_**
 
 ```js
