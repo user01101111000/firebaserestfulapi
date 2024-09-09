@@ -427,7 +427,7 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 </br>
 
 <p align="center">
-  <img src="https://img.freepik.com/premium-photo/portrait-skeleton-smoking-cigarette-dark-background_877188-1074.jpg" width="20%" />
+  <img src="https://img.freepik.com/premium-photo/skeleton-dressed-business-suit-dark-background-generative-ai_58409-49184.jpg" width="30%" />
 </p>
 
-<p align="center">the end, now get out of here.</p>
+<p align="center">end.</p>
