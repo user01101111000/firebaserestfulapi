@@ -35,7 +35,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -73,7 +73,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -115,7 +115,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -143,7 +143,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -171,7 +171,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -211,7 +211,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
 
 <br/>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -232,7 +232,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_K
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -252,7 +252,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -272,7 +272,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -292,7 +292,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -314,7 +314,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:delete?key=[API_KEY]
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -332,7 +332,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=[API_KEY]
 
 </br>
 
-**Body**
+**Body </>**
 
 ```js
 {
@@ -354,7 +354,7 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 
 <br/>
 
-**Body**
+**Body </>**
 
 ```js
 file; // Image File
@@ -362,7 +362,7 @@ file; // Image File
 
 <br/>
 
-**Headers**
+**Headers </>**
 
 ```js
 {
@@ -382,7 +382,7 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 
 <br/>
 
-**Body**
+**Body </>**
 
 ```js
 file; // Image File
@@ -390,7 +390,7 @@ file; // Image File
 
 <br/>
 
-**Headers**
+**Headers </>**
 
 ```js
 {
