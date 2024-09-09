@@ -7,11 +7,11 @@
 
 </br>
 
-## REALTIME DATABASE 🗄️
+# REALTIME DATABASE 💾
 
 </br>
 
-**_🚀 Get list data (method : GET) :_**
+### 🚀 Get list data (method : GET) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -19,7 +19,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**_🚀 Delete list data (method : DELETE) :_**
+### 🚀 Delete list data (method : DELETE) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -49,7 +49,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-**_🚀 Get, Update, Delete data (methods : GET, PUT, DELETE) :_**
+**_🚀 Get data (method : GET) :_**
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
@@ -57,7 +57,23 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-**Body (only PUT method)**
+**_🚀 Delete data (method : DELETE) :_**
+
+```js
+https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
+```
+
+</br>
+
+**_🚀 Update data (method : PUT) :_**
+
+```js
+https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
+```
+
+</br>
+
+**Body**
 
 ```js
 {
@@ -71,7 +87,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-## FIRESTORE DATABASE 🗄️
+# FIRESTORE DATABASE 🗄️
 
 <br/>
 
@@ -183,7 +199,7 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 
 </br>
 
-## AUTHENTICATION 🔐
+# AUTHENTICATION 🔐
 
 <br/>
 
@@ -326,7 +342,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=[API_KEY]
 
 </br>
 
-## STORAGE 📦
+# STORAGE 📦
 
 <br/>
 
