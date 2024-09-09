@@ -39,8 +39,8 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 ```js
 {
-    "email": "test@gmail.com",
-    "password": "test123"
+    "email": "xxxx@gmail.com",
+    "password": "xxxxxx"
     .
     .
     .
@@ -61,8 +61,8 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 ```js
 {
-    "email": "test@gmail.com",
-    "password": "test123"
+    "email": "xxxx@gmail.com",
+    "password": "xxxxx"
     .
     .
     .
@@ -105,11 +105,14 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 {
   "fields": {
     "email": {
-      "stringValue": "test@example.com"
+      "stringValue": "xxxx@example.com"
     },
     "password": {
-      "stringValue": "test123"
-    }
+      "stringValue": "xxxxx"
+    },
+    .
+    .
+    .
   }
 }
 ```
@@ -130,11 +133,14 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 {
   "fields": {
     "email": {
-      "stringValue": "test@example.com"
+      "stringValue": "xxxx@example.com"
     },
     "password": {
-      "stringValue": "test123"
-    }
+      "stringValue": "xxxxx"
+    },
+    .
+    .
+    .
   }
 }
 ```
@@ -155,11 +161,14 @@ https://firestore.googleapis.com/v1/projects/{YOUR_PROJECT_ID}/databases/(defaul
 {
   "fields": {
     "email": {
-      "stringValue": "test@example.com"
+      "stringValue": "xxxx@example.com"
     },
     "password": {
-      "stringValue": "test123"
-    }
+      "stringValue": "xxxxx"
+    },
+    .
+    .
+    .
   }
 }
 ```
@@ -189,7 +198,12 @@ https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
 **Body**
 
 ```js
-{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "displayName" : "xxxx", "returnSecureToken" : true}
+{
+    "email": "xxxx@gmail.com",
+    "password": "xxxxxxxx",
+    "displayName": "xxxx",
+    "returnSecureToken": true
+}
 ```
 
 </br>
@@ -205,7 +219,69 @@ https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_K
 **Body**
 
 ```js
-{"email": "xxxx@gmail.com", "password": "xxxxxxxx", "returnSecureToken" : true}
+{
+    "email": "xxxx@gmail.com",
+    "password": "xxxxxxxx",
+    "returnSecureToken": true
+}
+```
+
+</br>
+
+**_🚀 Update email (method : POST) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{
+    "idToken": "xxxxx",
+    "email": "xxxxx@gmail.com", // new email
+    "returnSecureToken": true
+}
+```
+
+</br>
+
+**_🚀 Update password (method : POST) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{
+    "idToken": "xxxxx",
+    "password": "xxxxxxxxx", // new password
+    "returnSecureToken": true
+}
+```
+
+</br>
+
+**_🚀 Get user info (method : POST) :_**
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=[API_KEY]
+```
+
+</br>
+
+**Body**
+
+```js
+{
+    "idToken": "xxxxx"
+}
 ```
 
 </br>
@@ -225,7 +301,7 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 **Body**
 
 ```js
-file  // Image File
+file; // Image File
 ```
 
 <br/>
@@ -233,7 +309,55 @@ file  // Image File
 **Headers**
 
 ```js
-{ headers: { "Content-Type": file.type } }
+{
+    headers: {
+        "Content-Type": file.type
+    }
+}
+```
+
+<br/>
+
+**_🚀 Update image (method : POST) :_**
+
+```js
+https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
+```
+
+<br/>
+
+**Body**
+
+```js
+file; // Image File
+```
+
+<br/>
+
+**Headers**
+
+```js
+{
+    headers: {
+        "Content-Type": file.type
+    }
+}
+```
+
+<br/>
+
+**_🚀 Delete image (method : DELETE) :_**
+
+```js
+https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
+```
+
+<br/>
+
+**_🚀 Get image info (method : GET) :_**
+
+```js
+https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png
 ```
 
 <br/>
