@@ -430,4 +430,4 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
   <img src="https://img.freepik.com/premium-photo/portrait-skeleton-smoking-cigarette-dark-background_877188-1074.jpg" width="20%" />
 </p>
 
-<p align="center">thanks.</p>
+<p align="center">the end, now get out of here.</p>
