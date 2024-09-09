@@ -11,7 +11,7 @@
 
 </br>
 
-### 🚀 Get list data (method : GET) :
+### 🚀 Get data list (method : GET) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -19,7 +19,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-### 🚀 Delete list data (method : DELETE) :
+### 🚀 Delete data list (method : DELETE) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -306,7 +306,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API_KEY]
 
 </br>
 
-### 🚀 Delete user (method : DELETE) :
+### 🚀 Delete account (method : DELETE) :
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:delete?key=[API_KEY]
@@ -324,7 +324,7 @@ https://identitytoolkit.googleapis.com/v1/accounts:delete?key=[API_KEY]
 
 </br>
 
-### 🚀 Get user info (method : POST) :
+### 🚀 Get account info (method : POST) :
 
 ```js
 https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=[API_KEY]
@@ -423,3 +423,11 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
 ```js
 https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderName}%2F{pictureName}.png?alt=media&token={imageDownloadToken}
 ```
+
+</br>
+
+<p align="center">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9fe48680-1222-49ad-8e6c-77e3c8b4434d/d9hyt9y-f0eb4c37-571e-4987-b053-025d447cbb2d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlmZTQ4NjgwLTEyMjItNDlhZC04ZTZjLTc3ZTNjOGI0NDM0ZFwvZDloeXQ5eS1mMGViNGMzNy01NzFlLTQ5ODctYjA1My0wMjVkNDQ3Y2JiMmQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3aBxRRoZ8h4b75NXX9cbfmJ0Wm96FCgulFH1Z0lvIsg" width="20%" />
+</p>
+
+<p align="center">thanks.</p>
