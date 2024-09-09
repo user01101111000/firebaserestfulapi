@@ -87,7 +87,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 
 </br>
 
-# FIRESTORE DATABASE 🗄️
+# FIRESTORE DATABASE 💾
 
 <br/>
 
