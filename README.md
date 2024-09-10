@@ -27,6 +27,14 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
+### 🚀 Get data (method : GET) :
+
+```js
+https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
+```
+
+</br>
+
 ### 🚀 Post data (method : POST) :
 
 ```js
@@ -49,22 +57,6 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-### 🚀 Get data (method : GET) :
-
-```js
-https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
-```
-
-</br>
-
-### 🚀 Delete data (method : DELETE) :
-
-```js
-https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
-```
-
-</br>
-
 ### 🚀 Update data (method : PUT) :
 
 ```js
@@ -83,6 +75,14 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
     .
     .
 }
+```
+
+</br>
+
+### 🚀 Delete data (method : DELETE) :
+
+```js
+https://{projectID}-default-rtdb.firebaseio.com/{listName}/{dataID}.json
 ```
 
 </br>
