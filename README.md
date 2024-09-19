@@ -11,7 +11,7 @@
 
 </br>
 
-### 🚀 Get data list (method : GET) :
+### 🚀 Get list data (method : GET) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -19,7 +19,7 @@ https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
 
 </br>
 
-### 🚀 Delete data list (method : DELETE) :
+### 🚀 Delete list data (method : DELETE) :
 
 ```js
 https://{projectID}-default-rtdb.firebaseio.com/{listName}.json
@@ -342,6 +342,28 @@ https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=[API_KEY]
 
 </br>
 
+### 🚀 Send a Verification Email (method : POST) :
+
+```js
+https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=[API_KEY]
+```
+
+</br>
+
+**Body </>**
+
+```js
+{
+  "requestType": "VERIFY_EMAIL",
+  "idToken": "xxxxx"
+}
+```
+
+</br>
+
+**Next Step:** The user will receive an email with a verification link. When the user clicks the verification link, Firebase automatically verifies the email address, provided that they are signed in.
+</br>
+
 # STORAGE 📦
 
 <br/>
@@ -430,4 +452,4 @@ https://firebasestorage.googleapis.com/v0/b/{projectID}.appspot.com/o/{folderNam
   <img src="https://img.freepik.com/premium-photo/skeleton-dressed-business-suit-dark-background-generative-ai_58409-49184.jpg" width="30%" />
 </p>
 
-<p align="center">end.</p>
+<p align="center">by <a href="https://github.com/user01101111000"><strong>user01101111000.</strong></a></p>
